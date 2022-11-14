@@ -1,0 +1,76 @@
+
+<html>
+<head>
+     <title>Application Form</title>
+</head>
+<body>
+ <style>
+   form{
+      text-align: center;
+      color: #4b4b4b;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 15px;
+      font-size: 25px;
+          }
+   header{
+       text-align: center;
+       color: blue;
+              }
+    header img{
+        width: 200px;
+    }
+    footer{
+    text-align: center;
+    padding: 35px;
+    background-color:#f4f4f4;
+}
+main{
+    max-width: 100%;
+    width: 1250px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}          
+</style>
+    <header>
+          <img src="pics/suc-logo.png" alt="">
+    </header>
+<main>
+<form>
+<label for="name">Candidate`s name:</label>
+<input type="text" id="name" placeholder="Name" required>
+<br><br>
+<label for="email">Enter email:</label>
+<input type="email" id="email" placeholder="example shrav@shr" required>
+<br><br>
+<label for="phone">Phone Number:</label>
+<input type="tel" id="Phone" placeholder="8790******" required>
+<br><br>
+<label for="Date of Birth">Date of Birth:</label>
+<input type="date" required>
+<br><br>
+<label for="question">choose your course</label>
+<select name="question" id="question">
+<option value="q1">Btech CSE</option>
+<option value="q2">Btech ECE</option>
+<option value="q3">Btech MECH</option>
+<option value="q4">Btech IT</option>
+<option value="q5">Btech AIML</option>
+<option value="q6">Msc Computers</option>
+<option value="q7">MA</option>
+<option value="q8">MBA</option>
+<option value="q9">Executive MBA</option>
+</select>
+<br>
+<br>
+
+<input type="submit" value="submit the form"> 
+</form>
+</main>
+<footer>
+    <p class="copyright">
+        copyright 2022 Skyline University
+    </p>
+ </footer>
+</body>
+</html>
